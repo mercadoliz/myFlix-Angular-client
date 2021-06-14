@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+.update-title {
+  font-family: 'Michroma', sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+::ng-deep.mat-dialog-container {
+  background-color: #B0BEC5;
+  border: 1px solid black;
+}
+
+.update-card {
+  background-color: #cfd8dc;
+  border: 1px solid black;
+}
+
+.update-button {
+  font-family: 'Michroma', sans-serif;
+  margin-bottom: 5px;
+  border: 1px solid black;
+}
+
+.close-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: absolute;
+  top: -5px;
+  right: 28px;
+}
+
+.close-icon {
+  width: 0;
+}
